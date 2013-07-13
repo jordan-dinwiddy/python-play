@@ -13,3 +13,21 @@ print tuple[1:3]      # Prints elements starting from 2nd till 3rd
 print tuple[2:]       # Prints elements starting from 3rd element
 print tinytuple * 2   # Prints list two times
 print tuple + tinytuple # Prints concatenated lists
+
+
+singleton = ('hey');		# I dont actuall think this defines a tuple
+singleton2 = 'hey',		# This does though
+
+print singleton;
+print singleton2;
+
+
+# Tuple/sequence PACKING
+elements = 'element 1', 'element 2', 'element 3';
+print elements;
+
+# tuple/sequence UNPACKING
+element1, element2, element3 = elements;
+print element1
+print element2
+print element3

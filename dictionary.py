@@ -19,3 +19,7 @@ print dict[2]           # Prints value for 2 key
 print tinydict          # Prints complete dictionary
 print tinydict.keys()   # Prints all the keys
 print tinydict.values() # Prints all the values
+
+
+del dict['one'];
+print dict;
